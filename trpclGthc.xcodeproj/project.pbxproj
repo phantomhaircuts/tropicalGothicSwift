@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14B0470A2464E4D5009CFB6E /* soundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B047092464E4D5009CFB6E /* soundPlayer.swift */; };
+		14B0470C2464E54F009CFB6E /* cybernight_noDrums.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 14B0470B2464E54E009CFB6E /* cybernight_noDrums.mp3 */; };
 		14F969212464851E0074693E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F969202464851E0074693E /* AppDelegate.swift */; };
 		14F969232464851E0074693E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F969222464851E0074693E /* SceneDelegate.swift */; };
 		14F969252464851E0074693E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F969242464851E0074693E /* ContentView.swift */; };
 		14F969272464851F0074693E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F969262464851F0074693E /* Assets.xcassets */; };
 		14F9692A2464851F0074693E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F969292464851F0074693E /* Preview Assets.xcassets */; };
 		14F9692D2464851F0074693E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F9692B2464851F0074693E /* LaunchScreen.storyboard */; };
+		14F969392464859C0074693E /* tropic_gothic_003.mov in Resources */ = {isa = PBXBuildFile; fileRef = 14F969352464859C0074693E /* tropic_gothic_003.mov */; };
+		14F9693A2464859C0074693E /* BLONDE VILLAN 9X16.mov in Resources */ = {isa = PBXBuildFile; fileRef = 14F969362464859C0074693E /* BLONDE VILLAN 9X16.mov */; };
+		14F9693B2464859C0074693E /* Comic Hills 709.mov in Resources */ = {isa = PBXBuildFile; fileRef = 14F969372464859C0074693E /* Comic Hills 709.mov */; };
+		14F9693C2464859C0074693E /* 2_19_19 CAM 9x16.mov in Resources */ = {isa = PBXBuildFile; fileRef = 14F969382464859C0074693E /* 2_19_19 CAM 9x16.mov */; };
+		14F9693E246486300074693E /*  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F9693D246486300074693E /*  .swift */; };
+		14F9694024648A660074693E /* bodyContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F9693F24648A660074693E /* bodyContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14B047092464E4D5009CFB6E /* soundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundPlayer.swift; sourceTree = "<group>"; };
+		14B0470B2464E54E009CFB6E /* cybernight_noDrums.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cybernight_noDrums.mp3; path = ../../../../Desktop/cybernight_noDrums.mp3; sourceTree = "<group>"; };
 		14F9691D2464851E0074693E /* trpclGthc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trpclGthc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F969202464851E0074693E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14F969222464851E0074693E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		14F969292464851F0074693E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14F9692C2464851F0074693E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14F9692E2464851F0074693E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F969352464859C0074693E /* tropic_gothic_003.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = tropic_gothic_003.mov; path = ../../../../Desktop/tropic_gothic_003.mov; sourceTree = "<group>"; };
+		14F969362464859C0074693E /* BLONDE VILLAN 9X16.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "BLONDE VILLAN 9X16.mov"; path = "../../../../Desktop/BLONDE VILLAN 9X16.mov"; sourceTree = "<group>"; };
+		14F969372464859C0074693E /* Comic Hills 709.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "Comic Hills 709.mov"; path = "../../../../Desktop/Comic Hills 709.mov"; sourceTree = "<group>"; };
+		14F969382464859C0074693E /* 2_19_19 CAM 9x16.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "2_19_19 CAM 9x16.mov"; path = "../../../../Desktop/2_19_19 CAM 9x16.mov"; sourceTree = "<group>"; };
+		14F9693D246486300074693E /*  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " .swift"; sourceTree = "<group>"; };
+		14F9693F24648A660074693E /* bodyContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bodyContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		14F9691F2464851E0074693E /* trpclGthc */ = {
 			isa = PBXGroup;
 			children = (
+				14F96934246485680074693E /* Assets */,
 				14F969202464851E0074693E /* AppDelegate.swift */,
 				14F969222464851E0074693E /* SceneDelegate.swift */,
 				14F969242464851E0074693E /* ContentView.swift */,
@@ -63,6 +80,9 @@
 				14F9692B2464851F0074693E /* LaunchScreen.storyboard */,
 				14F9692E2464851F0074693E /* Info.plist */,
 				14F969282464851F0074693E /* Preview Content */,
+				14F9693D246486300074693E /*  .swift */,
+				14B047092464E4D5009CFB6E /* soundPlayer.swift */,
+				14F9693F24648A660074693E /* bodyContent.swift */,
 			);
 			path = trpclGthc;
 			sourceTree = "<group>";
@@ -73,6 +93,18 @@
 				14F969292464851F0074693E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14F96934246485680074693E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				14B0470B2464E54E009CFB6E /* cybernight_noDrums.mp3 */,
+				14F969382464859C0074693E /* 2_19_19 CAM 9x16.mov */,
+				14F969362464859C0074693E /* BLONDE VILLAN 9X16.mov */,
+				14F969372464859C0074693E /* Comic Hills 709.mov */,
+				14F969352464859C0074693E /* tropic_gothic_003.mov */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +165,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F9693B2464859C0074693E /* Comic Hills 709.mov in Resources */,
 				14F9692D2464851F0074693E /* LaunchScreen.storyboard in Resources */,
+				14B0470C2464E54F009CFB6E /* cybernight_noDrums.mp3 in Resources */,
+				14F969392464859C0074693E /* tropic_gothic_003.mov in Resources */,
 				14F9692A2464851F0074693E /* Preview Assets.xcassets in Resources */,
+				14F9693C2464859C0074693E /* 2_19_19 CAM 9x16.mov in Resources */,
+				14F9693A2464859C0074693E /* BLONDE VILLAN 9X16.mov in Resources */,
 				14F969272464851F0074693E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +185,9 @@
 			files = (
 				14F969212464851E0074693E /* AppDelegate.swift in Sources */,
 				14F969232464851E0074693E /* SceneDelegate.swift in Sources */,
+				14B0470A2464E4D5009CFB6E /* soundPlayer.swift in Sources */,
+				14F9693E246486300074693E /*  .swift in Sources */,
+				14F9694024648A660074693E /* bodyContent.swift in Sources */,
 				14F969252464851E0074693E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
